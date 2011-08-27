@@ -17,9 +17,9 @@ class Gravatar {
 		//set default
 		$config = array(
 			'email'		=> md5($email),
-			'rating'	=> 'X',
-			'size'		=> 64,
-			'image'		=> Uri::create('public/assets/img/avatar.png')
+			'rating'	=> 'G',
+			'size'		=> 80,
+			'image'		=> 'http://www.gravatar.com/avatar/00000000000000000000000000000000' //default image
 		);
 		
 		// overwrite defaults
