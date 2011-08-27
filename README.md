@@ -7,9 +7,11 @@ This is a package for FuelPHP that makes gravatar retrieval easier. Essentially 
 
 [1] drop the gravatar folder into your packages folder
 [2] add gravatar to your config file `fuel/app/config/config.php`
+	
 	'packages'	=> array(
 		'gravatar'
 	),
+	
 [3] ???
 [4] Profit
 
